@@ -1,0 +1,32 @@
+@import '/src/styles/Variables.module.scss';
+
+.navigation {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  margin-right: 24px;
+}
+
+.navigationList {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  column-gap: 16px;
+
+  &_link {
+    font-weight: 500;
+    font-size: 14px;
+
+    color: var(--charcoal);
+  }
+
+  &_button {
+    display: flex;
+    align-items: center;
+
+    border-style: none;
+    background-color: transparent;
+  }
+}
