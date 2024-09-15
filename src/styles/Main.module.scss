@@ -1,0 +1,14 @@
+@import '/src/styles/Variables.module.scss';
+
+@font-face {
+  font-family: 'Goldman Sans';
+  src: url('/public/Fonts/GoldmanSans/GoldmanSans_Md.ttf') format('ttf');
+}
+
+body {
+  background-color: var(--light-gray);
+}
+
+button {
+  cursor: pointer;
+}
