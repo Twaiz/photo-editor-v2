@@ -23,17 +23,17 @@ const HeaderUserFunctional = () => {
         </li>
         <li className={styles.userListAction_item}>
           <button className={styles.userListAction_button}>
-            <IconInfo />
-          </button>
-        </li>
-        <li className={styles.userListAction_item}>
-          <button className={styles.userListAction_button}>
             <IconNotification />
           </button>
         </li>
         <li className={styles.userListAction_item}>
           <button className={styles.userListAction_button}>
             <IconSetting />
+          </button>
+        </li>
+        <li className={styles.userListAction_item}>
+          <button className={styles.userListAction_button}>
+            <IconInfo />
           </button>
         </li>
       </ul>
