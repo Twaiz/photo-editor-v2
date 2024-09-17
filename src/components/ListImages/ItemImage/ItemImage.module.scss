@@ -1,19 +1,16 @@
 .listImages_item {
   display: flex;
 
-  width: 100%;
   height: 82px;
 
-  gap: 5px;
+  column-gap: 10px;
   padding: 5px;
 
   background-color: var(--translucent-blue);
 
   .listImages_img {
     display: flex;
-    justify-content: center;
 
-    width: 50%;
     height: 100%;
 
     object-fit: contain;
@@ -25,12 +22,11 @@
   flex-direction: column;
   justify-content: space-around;
 
-  gap: 5px;
+  row-gap: 5px;
 
-  width: 100%;
-  height: 100%;
-
-  &_nameImg {
+  &_nameImg,
+  &_downloadImg,
+  &_sizeImg {
     font-weight: 500;
     font-size: 14px;
 
@@ -39,15 +35,9 @@
 
   &_sizeImg {
     font-weight: 700;
-    font-size: 14px;
-
-    color: var(--dull-blue);
   }
 
   &_downloadImg {
-    font-weight: 500;
-    font-size: 14px;
-
     color: var(--light-blue);
   }
 }

@@ -3,15 +3,12 @@
 .listImages {
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
-
-  padding: 5px;
 
   overflow-y: auto;
 
-  width: 100%;
-  height: 100%;
+  width: 50%;
+
+  padding: 5px;
 
   background-color: var(--white);
 }
