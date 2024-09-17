@@ -1,0 +1,16 @@
+.previewImage {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  padding: 10px;
+
+  width: 50%;
+  height: 100dvh;
+  background-color: aqua;
+
+  &_img {
+    object-fit: contain;
+  }
+}
