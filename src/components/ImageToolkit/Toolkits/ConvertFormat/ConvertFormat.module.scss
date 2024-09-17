@@ -1,0 +1,31 @@
+@import '/src/styles/Variables.module.scss';
+
+.convertFormat {
+  display: flex;
+  flex-direction: column;
+
+  row-gap: 8px;
+}
+
+.convertTo {
+  display: flex;
+  column-gap: 8px;
+
+  &_checkbox {
+    // TODO --> тут стили для кастомного checkbox
+  }
+
+  &_nameToolkit {
+    font-weight: 500;
+    font-size: 14px;
+
+    color: var(--charcoal);
+  }
+}
+
+.formatsToConvert {
+  display: flex;
+  flex-direction: column;
+
+  row-gap: 12px;
+}
