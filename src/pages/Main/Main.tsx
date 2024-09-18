@@ -7,8 +7,10 @@ import ImageToolkit from '@/components/ImageToolkit/ImageToolkit';
 const Main = () => {
   return (
     <div className={styles.wrapper}>
-      <PreviewImage />
-      <ListImages />
+      <div className={styles.test}>
+        <PreviewImage />
+        <ListImages />
+      </div>
       <ImageToolkit />
     </div>
   );

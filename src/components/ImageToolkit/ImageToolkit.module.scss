@@ -5,11 +5,17 @@
   flex-direction: column;
   justify-content: space-between;
 
+  overflow: auto;
+
   width: 50%;
 
   padding: 10px;
 
   background-color: var(--white);
+
+  @media screen and (max-width: 530px) {
+    display: none;
+  }
 }
 
 .toolkits {
