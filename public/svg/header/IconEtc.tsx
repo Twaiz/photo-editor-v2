@@ -16,5 +16,5 @@ const IconEtc = () => {
     </svg>
   );
 };
-
+// TODO --> исправить svg. в отдельном коммите
 export default IconEtc;
