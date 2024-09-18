@@ -13,4 +13,19 @@ button {
   cursor: pointer;
 }
 
-// TODO --> убрать в след. коммите все базовые стили из input
+input:focus {
+  outline: none;
+}
+
+input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus,
+input:-webkit-autofill:active {
+  -webkit-box-shadow: 0 0 0 30px var(--color-light-bg) inset !important;
+  -webkit-text-fill-color: var(--color-dark-text) !important;
+}
+
+input:-moz-autofill {
+  box-shadow: 0 0 0 30px var(--color-light-bg) inset !important;
+  color: var(--color-dark-text) !important;
+}

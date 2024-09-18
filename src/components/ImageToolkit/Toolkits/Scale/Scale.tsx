@@ -17,7 +17,7 @@ const Scale = () => {
           value={scale}
           onChange={e => setScale(Number(e.target.value))}
         />
-        {/* // TODO --> решить тут проблему с отображением current scale */}
+        {/* // TODO --> 1. решить тут проблему с отображением current scale; 2. кастомный input range */}
         {scale !== 0 && (
           <span
             className={styles.containerScale_scale}

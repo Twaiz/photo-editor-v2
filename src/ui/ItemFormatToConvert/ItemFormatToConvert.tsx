@@ -4,9 +4,9 @@ interface IItemFormatToConvert {
   format: string;
 }
 
-// TODO --> сделать props, как в Button
+const ItemFormatToConvert = (props: IItemFormatToConvert) => {
+  const { format } = props;
 
-const ItemFormatToConvert = ({ format }: IItemFormatToConvert) => {
   return (
     <li className={styles.formatsToConvert_item}>
       <label className={styles.formatsToConvert_label}>
