@@ -1,0 +1,74 @@
+@import '/src/styles/Variables.module.scss';
+
+.scale {
+  display: flex;
+  flex-direction: column;
+
+  row-gap: 10px;
+
+  &_nameToolkit {
+    font-weight: 500;
+    font-size: 14px;
+
+    color: var(--dull-blue);
+  }
+}
+
+.containerScale {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+
+  &_rangeScale {
+    height: 2px;
+  }
+
+  &_scale {
+    position: absolute;
+    display: flex;
+
+    left: 50%;
+    bottom: 30px;
+
+    transform: translateX(-50%);
+
+    align-items: center;
+    justify-content: center;
+
+    width: 41px;
+    height: 28px;
+
+    border-radius: 4px;
+
+    font-weight: 600;
+    font-size: 12px;
+
+    background-color: var(--dark);
+    color: var(--white);
+
+    &::after {
+      content: '';
+      position: absolute;
+
+      left: 50%;
+      bottom: -8px;
+      transform: translateX(-50%);
+
+      border: 4px solid transparent;
+      border-top: 4px solid var(--dark);
+    }
+  }
+}
+
+.diapazon {
+  display: flex;
+  justify-content: space-between;
+
+  &_minScale,
+  &_maxScale {
+    font-weight: 500;
+    font-size: 12px;
+
+    color: var(--charcoal);
+  }
+}

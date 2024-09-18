@@ -1,0 +1,19 @@
+@import '/src/styles/Variables.module.scss';
+
+.button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  height: 32px;
+  width: 100%;
+
+  border-radius: 2px;
+  border-style: none;
+
+  font-weight: 500;
+  font-size: 14px;
+
+  color: var(--white);
+  background-color: var(--light-blue);
+}
